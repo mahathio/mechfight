@@ -3,4 +3,4 @@
 FROM oven/bun:1.4.4-slim
 WORKDIR /bot
 COPY . .
-ENTRYPOINT ["bun", "/bot/our_bot_trial2.py"]
+ENTRYPOINT ["bun", "/bot/example_bot.py"]
